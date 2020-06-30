@@ -1,0 +1,88 @@
+body{
+    font-family: 'MuseoModerno', cursive;
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    font-size:50px;
+
+}
+h2{
+    font-size:40px;
+}
+.orange-highlight{
+    color:orange;
+}
+p{
+    color:dimgray;
+}
+section{
+    padding:50px 0px;
+    height:500px;
+}
+.top-section{
+    background:url('images/top-banner.png');
+
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    
+    margin-left:6%;
+    padding-left:2%;
+    float:left;
+    width:40%;
+}
+
+.half-width img{
+    width:100%;
+}
+.link-button{
+     font-size:15px;
+    text-decoration:none;
+    border:none;
+    background-image: linear-gradient(45deg,rgb(250, 142, 100),orangered);
+    color:white;
+    padding:10px 20px;
+    border-radius: 5px;
+    margin-top:20px;
+    outline:none;
+
+}
+ .link-button:hover{
+    color:dark;
+    background-image: linear-gradient(45deg,orangered,rgb(250, 142, 99));
+}
+
+.second-section{
+    background-image:url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position:right center;
+}
+.experiences-section{
+    background-image:url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position:left 70%;
+}
+.experiences-div{
+    box-shadow:10px 10px 30px gray;
+    height:80%;
+    padding-right:10px;
+    background:white;
+}
+#full-stack{
+    border-left:7px solid;
+    border-image:linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
+    margin-top:100px;
+    font-size:13px;
+}
